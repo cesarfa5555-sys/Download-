@@ -72,7 +72,7 @@
 
 <header><div class="wrap">
   <a class="logo" href="#topo">NEKO TOWER</a>
-  <nav><a href="#como-jogar">Como jogar</a><a href="#recursos">Recursos</a><a href="#instalar">Instalar</a></nav>
+  <nav><a href="#como-jogar">Como jogar</a><a href="#recursos">Recursos</a><a href="neko-tower.apk">Instalar</a></nav>
 </div></header>
 
 <main id="topo">
@@ -81,7 +81,7 @@
       <h1>NEKO<br>TOWER</h1>
       <p class="lead">Empilhe os blocos, acerte o encaixe perfeito e construa a torre mais alta do céu.</p>
       <div class="cta">
-        <a class="btn" id="dl" href="app-unsigned.apk" download>Baixar APK</a>
+        <a class="btn" id="dl" href="neko-tower.apk" download>Baixar APK</a>
         <a class="btn alt" id="play" href="https://cesarfa5555-sys.github.io/Neko-tower/" hidden>Jogar no navegador</a>
       </div>
       <p class="note">Para celulares Android.</p>
@@ -118,7 +118,7 @@
 
   <section class="final"><div class="wrap"><div class="panel">
     <h2>Pronto para subir?</h2>
-    <a class="btn" id="dl2" href="#instalar" download>Baixar APK</a>
+    <a class="btn" id="dl2" href="neko-tower.apk" download>Baixar APK</a>
   </div></div></section>
 </main>
 
@@ -129,7 +129,7 @@
 // Caminho ou link do seu APK. Ex.: 'neko-tower.apk' (arquivo na mesma pasta deste index.html)
 const APK_URL = 'neko-tower.apk';
 // Opcional: link para jogar no navegador. Deixe vazio para esconder o botão.
-const PLAY_URL = '';
+const PLAY_URL = 'https://cesarfa5555-sys.github.io/Neko-tower/';
 // ============================
 ['dl', 'dl2'].forEach(id => { document.getElementById(id).href = APK_URL; }); // liga os botões de download ao APK
 if (PLAY_URL) { const p = document.getElementById('play'); p.href = PLAY_URL; p.hidden = false; }
